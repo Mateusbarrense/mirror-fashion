@@ -1,0 +1,46 @@
+img {
+    float: left;
+}
+
+.produto {
+    position: relative;
+    padding-left: 40%;
+}
+
+.cores {
+    position: static;
+    padding: 0;
+}
+
+.cores label img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cores label:after{
+    position: static;
+    float: left;
+}
+
+.cores label img{
+     max-width: 35%;
+     max-height: 100%;
+}
+
+.produto{
+    font-size: 1.2em;
+}
+
+.cores label:after{
+    margin-right: 10px;
+}
+
+fieldset{
+    display: inline-block;
+    vertical-align: top;
+
+    margin: 1em 0;
+    min-width: 200px;
+    width: 45%;
+}

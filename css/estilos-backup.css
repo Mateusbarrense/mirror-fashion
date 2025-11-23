@@ -1,0 +1,143 @@
+.sacola {
+    background: url(../img/sacola.png) no-repeat top right;
+    font-size: 14px;
+    padding-right: 35px;
+    padding-top: 8px;
+    text-align: right;
+    width: 140px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.menu-opcoes {
+    font-size: 15px;
+}
+
+.menu-opcoes a {
+    color: #003366;
+}
+
+body {
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+
+.logotipo {
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+header {
+    position: relative;
+}
+
+.busca,
+.menu-departamentos {
+    float: left;
+    background-color: #dcdcdc;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 230px;
+}
+
+.menu-departamentos {
+    clear: left;
+    text-transform: uppercase;
+}
+
+.item-menu {
+    text-decoration: none;
+}
+
+.busca h2,
+.busca form,
+.menu-departamentos h2 {
+    margin: 10px;
+}
+
+.menu-departamentos li {
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+
+.menu-departamentos a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.busca input {
+    vertical-align: middle;
+}
+
+.busca input[type=search] {
+    width: 170px;
+}
+
+.destaque {
+    margin-top: 10px;
+}
+
+.menu-departamentos {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.painel li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.painel {
+    margin: 10px 0;
+    padding: 10px;
+    width: 445px;
+}
+
+.mais-vendidos {
+    float: right;
+}
+
+.painel h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10 px;
+}
+
+.painel a{
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.novidades{
+    background-color: #f5dcdc;
+}
+
+.mais-vendidos{
+    background-color: #dcdcf5;
+}
